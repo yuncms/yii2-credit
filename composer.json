@@ -1,0 +1,28 @@
+{
+  "name": "yuncms/yii2-credit",
+  "description": "credit",
+  "keywords": [
+    "credit"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Xu TL",
+      "email": "xutongle@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.6",
+    "yiisoft/yii2-queue": "~2.0.0",
+    "yuncms/yii2-user": "~2.0"
+  },
+  "autoload": {
+    "files": [
+      "helpers.php"
+    ],
+    "psr-4": {
+      "yuncms\\credit\\": ""
+    }
+  }
+}
