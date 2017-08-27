@@ -49,7 +49,7 @@ class SpaceController extends Controller
         $dataProvider = new ActiveDataProvider([
             'query' => Credit::find()->where(['user_id' => $model->id])->orderBy(['created_at' => SORT_DESC]),
         ]);
-        return $this->render('credit', [
+        return $this->render('index', [
             'model' => $model,
             'dataProvider' => $dataProvider
         ]);
