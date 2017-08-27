@@ -19,3 +19,8 @@ or add
 ```
 
 to the `require` section of your `composer.json` file.
+
+## License
+
+This is released under the MIT License. See the bundled [LICENSE](LICENSE.md)
+for details.
