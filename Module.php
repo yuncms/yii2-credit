@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://github.com/Chiliec/yii2-vote
- * @author Vladimir Babin <vovababin@gmail.com>
- * @license http://opensource.org/licenses/BSD-3-Clause
+ * @link http://www.tintsoft.com/
+ * @copyright Copyright (c) 2012 TintSoft Technology Co. Ltd.
+ * @license http://www.tintsoft.com/license/
  */
 
 namespace yuncms\credit;
