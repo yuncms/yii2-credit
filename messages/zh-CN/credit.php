@@ -17,13 +17,18 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
+    'Concerned about live' => '关注直播',
     'Action' => '操作',
     'Amount of the transaction' => '交易金额',
     'Answered the question' => '回答问题',
     'Ask questions' => '提问',
     'Credit Manage' => '积分管理',
+    'His' => '他',
+    'My' => '我',
+    'Source Subject' => '来源',
     'Transaction Hour' => '交易时间',
     'Your current credits are:' => '您当前的积分数为：',
-    'Source Subject' => '来源',
     'answer is adopted' => '答案被采纳',
+    'records' => '条记录',
+    '{who} Credit' => '{who}的积分',
 ];

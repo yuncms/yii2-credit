@@ -13,7 +13,7 @@ use yii\helpers\Html;
     <span class="text-muted"><?php if (empty($model->actionText)) {
             switch ($model->action) {
                 case 'test':
-                    echo Yii::t('user', 'Concerned about live');
+                    echo Yii::t('credit', 'Concerned about live');
                     break;
                 default:
                     echo $model->action;
