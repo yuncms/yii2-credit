@@ -52,7 +52,7 @@ class Credit extends ActiveRecord
         return [
             'id' => 'ID',
             'action' => Yii::t('credit', 'Action'),
-            'source_subject' => Yii::t('credit', 'Source Subject'),
+            'model_subject' => Yii::t('credit', 'Source Subject'),
             'credits' => Yii::t('credit', 'Amount of the transaction'),
             'created_at' => Yii::t('credit', 'Transaction Hour'),
         ];
