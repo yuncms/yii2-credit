@@ -29,6 +29,9 @@ class M170822042533Create_credits_table extends Migration
             'credits' => $this->integer()->defaultValue(0),
             'created_at' => $this->integer()->unsigned()->notNull(),
         ], $tableOptions);
+
+        $this->addForeignKey('{{%credits_ibfk_1}}', '{{%credits}}', 'user_id', '{{%user}}', 'id', 'CASCADE', 'RESTRICT');
+
     }
 
     /**
