@@ -22,7 +22,7 @@
       "helpers.php"
     ],
     "psr-4": {
-      "yuncms\\credit\\": "",
+      "yuncms\\credit\\": "src",
       "yuncms\\jobs\\": "jobs",
       "yuncms\\migrations\\": "migrations"
     }
