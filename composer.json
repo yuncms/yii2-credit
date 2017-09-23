@@ -26,6 +26,20 @@
     }
   },
   "extra": {
+    "yuncms": {
+      "name": "credit",
+      "i18n": {
+        "class": "yii\\i18n\\PhpMessageSource",
+        "basePath": "@yuncms/credit/message"
+      },
+      "migrationNamespace": "@yuncms/credit/migrations",
+      "backend": {
+        "class": "yuncms\\credit\\backend\\Module"
+      },
+      "frontend": {
+        "class": "yuncms\\credit\\frontend\\Module"
+      }
+    },
     "branch-alias": {
       "dev-master": "1.0-dev"
     }
