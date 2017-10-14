@@ -22,7 +22,7 @@ class M170822042533Create_credits_table extends Migration
 
         $this->createTable('{{%credits}}', [
             'id' => $this->primaryKey(),
-            'user_id' => $this->integer()->notNull(),
+            'user_id' => $this->integer()->unsigned()->notNull(),
             'action' => $this->string(100)->notNull(),
             'model_id' => $this->integer(),
             'model_subject' => $this->string(),
