@@ -7,7 +7,7 @@ use yuncms\user\models\User;
  * @var  User $model
  * @var \yii\data\ActiveDataProvider $dataProvider
  */
-$this->context->layout = '@yuncms/user/frontend/views/layouts/space';
+$this->context->layout = '@yuncms/space/frontend/views/layouts/space';
 $this->params['user'] = $model;
 if (!Yii::$app->user->isGuest && Yii::$app->user->id == $model->id) {//Me
     $who = Yii::t('credit', 'My');
